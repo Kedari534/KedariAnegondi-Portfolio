@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio - Your Name</title>
+    <title>Portfolio - Kedari Anegondi</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -12,325 +12,329 @@
 <body>
 
     <!-- Header with Logo, Navigation, and Education -->
-<header>
-    <div class="logo">
-        <h1>Kedari-Anegondi</h1>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work-experience">Work</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li> <!-- New Education link -->
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <header id="navbar">
+        <div class="nav-content">
+            <div class="logo">Kedari-Anegondi</div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work-experience">Work</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
 
-
-   <!-- Home Section -->
-<section id="home">
-    <div class="home-content">
-        <div class="text-content">
-            <h1>I am Kedari Anegondi</h1>
-            <h2>Java Full Stack Developer</h2>
-            <p>I'm a recent B.Tech graduate and a Java Full Stack Developer in training.</p>
-            <div class="buttons">
-                <!-- Contact Me Button -->
-                <a href="#contact" class="btn contact-btn">Contact Me</a>
-                <!-- Scroll Down Button -->
-                <a href="#about" class="scroll-down">Scroll Down</a>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/Kedari-Anegondi.jpg" alt="Kedari Anegondi" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1>I am Kedari Anegondi</h1>
+                <h2>Java & MERN Stack Developer</h2>
+                <p>I'm a B.Tech graduate and a Java & MERN Stack Developer in training.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-button primary-cta">Contact Me</a>
+                    <a href="#about" class="cta-button">Scroll Down</a>
+                </div>
             </div>
         </div>
-        <div class="image-content">
-            <!-- Your profile image or illustration here -->
-            <img src="Kedari-Anegondi.jpg" alt="Profile Image" class="profile-img">
-        </div>
-    </div>
-</section>
-
-
+    </section>
 
     <!-- About Section -->
 <section id="about">
+    <h2>About Me</h2>
     <div class="about-content">
-        <h2>About Me</h2>
         <p>
-            Hi, I'm Kedari Anegondi, a passionate Java Full Stack Developer with a strong foundation in building scalable and efficient web applications. I hold a B.Tech degree and have completed intensive training in Java Full Stack Development. Over the course of my training, I’ve worked on one  project involving Java, J2EE ,HTML , CSS , JavaScript, SQL and MySQL, gaining hands-on experience in developing end-to-end solutions.
+            Hi, I'm <strong>Kedari Anegondi</strong> — a passionate <strong>Java & MERN Stack Developer</strong> with a strong foundation in building scalable, efficient, and user-friendly web applications. I hold a <strong>B.Tech</strong> degree and have completed intensive training in <strong>Java Full Stack Development</strong>, gaining hands-on experience through real-world projects.
         </p>
         <p>
-            In my journey, I have gained expertise in creating robust RESTful APIs, working with both front-end and back-end technologies, and integrating various databases and version control systems like Git/GitHub. I am driven by a love for problem-solving and continuous learning, constantly keeping up-to-date with industry trends to create innovative solutions.
+            My expertise spans <strong>Java, J2EE, HTML, CSS, JavaScript, SQL, and MySQL</strong>, with a focus on developing robust <strong>RESTful APIs</strong> and working seamlessly across front-end and back-end technologies. I’m also skilled in integrating databases and using version control systems like <strong>Git/GitHub</strong>.
         </p>
         <p>
-            I’m also committed to delivering high-quality code and ensuring that every application I work on is user-friendly and scalable. I value collaboration and teamwork, and believe that communication is key to the success of any project. I aim to be part of a dynamic team where I can contribute to impactful projects and further hone my skills as a developer.
+            I take pride in writing clean, maintainable code and delivering solutions that are both technically sound and visually appealing. I thrive in collaborative environments where communication and teamwork drive success, and I’m always eager to learn and adapt to new tools, frameworks, and industry trends.
         </p>
         <p>
-            Currently, I am seeking opportunities to work with a forward-thinking company where I can apply my technical knowledge and passion for web development. If you’d like to know more or collaborate, feel free to reach out to me.
+            Currently, I’m seeking opportunities with forward-thinking companies where I can contribute to impactful projects while continuing to grow as a developer. If you’d like to connect or collaborate, feel free to reach out — I’m always open to exciting opportunities.
         </p>
     </div>
 </section>
 
 
-    
-     <!-- Work Experience Section -->
+    <!-- Work Experience Section -->
 <section id="work-experience">
     <h2>Work Experience</h2>
     <div class="work-experience-wrapper">
         <div class="work-experience">
-            <h3>Java Full Stack Developer Training</h3>
-            <p>Completed my Java Full Stack Developer training from QSpiders, Bengaluru. I worked on projects involving technologies like Java, Spring Boot, Angular, React, and MySQL. Focused on developing end-to-end applications and REST APIs.</p>
+            <h3>Java & MERN Stack Developer Training</h3>
+            <p>Completed my Java & MERN Stack Developer training from QSpiders, Bengaluru. I worked on projects involving technologies like Java, J2EE, Spring Boot, HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, and REST API development. Focused on developing full-stack applications with responsive design and robust backend services.</p>
         </div>
     </div>
 </section>
 
-     <!-- Projects Section -->
+
+<!-- Projects Section -->
 <section id="projects">
     <h2>Projects</h2>
-    <div class="projects-wrapper">
-        <!-- Individual Projects Component -->
-        <div class="project-category">
-            <h3>Individual Project</h3>
-            <div class="projects-container">
-                <div class="project">
-                    <h3>Food Delivery Website</h3>
-                    <p>Developed an Food Delivery Website using Java  for backend and HTML , CSS , JavaScript for frontend. Integrated payment gateway and user authentication</p>
-                    <a href="https://github.com/Kedari534/Tap" target="_blank">View Project on GitHub</a>
-                </div>
+    <div class="projects-grid">
+
+        <!-- Food Delivery Website Project -->
+        <div class="project-card">
+            <img src="images/foodimage.png" alt="Food Delivery Website">
+            <h3>Food Delivery Website</h3>
+            <div class="project-tech">
+                <span>Java</span>
+                <span>J2EE</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+            </div>
+            <p>Developed a Food Delivery Website using Java (J2EE) for backend and HTML, CSS, JavaScript for frontend. Implemented user authentication and integrated MySQL for data storage.</p>
+            <div style="text-align:center; margin-top: 10px;">
+                <a href="https://github.com/Kedari534/Tap" target="_blank" style="text-decoration: none; color: white; background-color: #333; padding: 8px 16px; border-radius: 5px;">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                &nbsp;&nbsp;
+                <a href="https://drive.google.com/file/d/1IXHA9FcXF2P9PRE0RSPBotTt-tVM7RU6/view?usp=drive_link" target="_blank" style="text-decoration: none; color: white; background-color: #e63946; padding: 8px 16px; border-radius: 5px;">
+                    <i class="fas fa-video"></i> Watch Video
+                </a>
             </div>
         </div>
 
-        <!-- Team Projects Component -->
-        <div class="project-category">
-            <h3>Team Project</h3>
-            <div class="projects-container">
-                <div class="project">
-                    <h3>Design and Implementation of Virtual Machines in Azure</h3>
-                    <p> Designed custom VM images pre-configured with necessary software, security patches, and system 
-                        settings . Implemented Azure Shared Image Gallery to manage, distribute, and version custom VM images for 
-                        consistent deployments across teams</p>
-                </div>
+        <!-- Employee Management System Project -->
+        <div class="project-card">
+            <img src="images/employeemanage.png" alt="Employee Management System">
+            <h3>Employee Management System</h3>
+            <div class="project-tech">
+                <span>Spring Boot</span>
+                <span>React.js</span>
+                <span>REST APIs</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+            <p>Developed a CRUD-based system to manage employee data (add/update/delete). Built REST APIs with Spring Boot and secured endpoints using standard practices. Designed an interactive front-end with React.js, ensuring responsive layout and a clean admin UI.</p>
+            <div style="text-align:center; margin-top: 10px;">
+                <a href="https://github.com/YOUR_GITHUB_LINK_HERE" target="_blank" style="text-decoration: none; color: white; background-color: #333; padding: 8px 16px; border-radius: 5px;">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                &nbsp;&nbsp;
+                <a href="https://drive.google.com/file/d/1-WLwok9JTTFo1vGlz5RZMFIFavNojBic/view?usp=drive_link" target="_blank" style="text-decoration: none; color: white; background-color: #e63946; padding: 8px 16px; border-radius: 5px;">
+                    <i class="fas fa-video"></i> Watch Video
+                </a>
             </div>
         </div>
+
+        <!-- Azure VM Project -->
+        <div class="project-card">
+            <img src="images/virtualmachine.png" alt="Virtual Machines in Azure">
+            <h3>Design and Implementation of Virtual Machines in Azure</h3>
+            <div class="project-tech">
+                <span>Azure</span>
+                <span>Virtual Machines</span>
+                <span>Cloud Computing</span>
+            </div>
+            <p>Designed custom VM images pre-configured with necessary software, security patches, and system settings. Implemented Azure Shared Image Gallery to manage, distribute, and version custom VM images for consistent deployments across teams.</p>
+        </div>
+
     </div>
 </section>
 
 
-<!-- Education Section -->
-<section id="education">
-    <div class="education-content">
+
+
+    <!-- Education Section -->
+    <section id="education">
         <h2>Education</h2>
-        
-        <!-- B.Tech Component -->
-        <div class="education-component">
-            <h3>B.Tech</h3>
-            <p><strong>CGPA:</strong> 7.12</p>
-            <p><strong>Institution:</strong> [Krishna Chaitanys Institute of Technnology and Sciences , Markapur]</p>
-            <p><strong>Duration:</strong> 2019 - 2023</p>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>B.Tech</h3>
+                <p class="institution">Krishna Chaitanya Institute of Technology and Sciences, Markapur</p>
+                <p class="location">Markapur, Andhra Pradesh, India</p>
+                <p class="percentage">CGPA: 7.12</p>
+                <p class="year">2019 - 2023</p>
+            </div>
+            <div class="education-card">
+                <h3>Board of Intermediate Education, Andhra Pradesh (BIEAP)</h3>
+                <p class="institution">Sri Prathibha Junior College, Ongole</p>
+                <p class="location">Ongole, Andhra Pradesh, India</p>
+                <p class="percentage">GPA: 9.67</p>
+                <p class="year">2017 - 2019</p>
+            </div>
+            <div class="education-card">
+                <h3>Zilla Parishad High School</h3>
+                <p class="institution">Zilla Parishad High School</p>
+                <p class="location">Gulur, Andhra Pradesh, India</p>
+                <p class="percentage">GPA: 9.5</p>
+                <p class="year">2016 - 2017</p>
+            </div>
         </div>
-        
-        <!-- Board of Intermediate Education Component -->
-        <div class="education-component">
-            <h3>Board of Intermediate Education, Andhra Pradesh (BIEAP)</h3>
-            <p><strong>GPA:</strong> 9.67</p>
-            <p><strong>Institution:</strong> [Sri Prathibha Junior College , Ongole]</p>
-            <p><strong>Duration:</strong> 2017 - 2019</p>
-        </div>
-        
-        <!-- Zilla Parishad High School Component -->
-        <div class="education-component">
-            <h3>Zilla Parishad High School</h3>
-            <p><strong>GPA:</strong> 9.5</p>
-            <p><strong>Institution:</strong> Zilla Parishad High School</p>
-            <p><strong>Duration:</strong> 2016 - 2017</p>
-        </div>
-    </div>
-</section>
-
+    </section>
 
 
     <!-- Skills Section -->
 <section id="skills">
     <h2>Skills</h2>
-    <div class="skills-wrapper">
-        <div class="skill">
-            <h3>Java</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 90%;"></div>
+    <div class="skills-container">
+
+        <!-- Languages -->
+        <div class="skill-category">
+            <h3>✅ Languages</h3>
+            <div class="skill-items">
+                <div class="skill-item">Java</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
             </div>
         </div>
-        <div class="skill">
-            <h3>J2EE</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 90%;"></div>
+
+        <!-- Backend Technologies -->
+        <div class="skill-category">
+            <h3>✅ Backend Technologies</h3>
+            <div class="skill-items">
+                <div class="skill-item">Spring Boot</div>
+                <div class="skill-item">J2EE (Servlets, JSP)</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Express.js</div>
             </div>
         </div>
-        <div class="skill">
-            <h3>Spring Boot</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 85%;"></div>
+
+        <!-- Frontend Technologies -->
+        <div class="skill-category">
+            <h3>✅ Frontend Technologies</h3>
+            <div class="skill-items">
+                <div class="skill-item">React.js</div>
+                <div class="skill-item">Bootstrap</div>
             </div>
         </div>
-        <div class="skill">
-            <h3>HTML/CSS</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 95%;"></div>
+
+        <!-- Databases -->
+        <div class="skill-category">
+            <h3>✅ Databases</h3>
+            <div class="skill-items">
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">MongoDB</div>
             </div>
         </div>
-        <div class="skill">
-            <h3>JavaScript</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 80%;"></div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-category">
+            <h3>✅ Tools & Platforms</h3>
+            <div class="skill-items">
+                <div class="skill-item">Git</div>
+                <div class="skill-item">GitHub</div>
+                <div class="skill-item">Visual Studio Code</div>
+                <div class="skill-item">Eclipse</div>
+                <div class="skill-item">Postman</div>
+                <div class="skill-item">Maven</div>
+                <div class="skill-item">AWS</div>
             </div>
         </div>
-        <div class="skill">
-            <h3>React</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 75%;"></div>
+
+        <!-- Core Concepts -->
+        <div class="skill-category">
+            <h3>✅ Core Concepts</h3>
+            <div class="skill-items">
+                <div class="skill-item">Object-Oriented Programming (OOP)</div>
+                <div class="skill-item">Data Structures and Algorithms (DSA)</div>
+                <div class="skill-item">MVC Architecture</div>
+                <div class="skill-item">RESTful APIs</div>
+                <div class="skill-item">Exception Handling</div>
             </div>
         </div>
-        <div class="skill">
-            <h3>Node.js</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 70%;"></div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category">
+            <h3>✅ Soft Skills</h3>
+            <div class="skill-items">
+                <div class="skill-item">Analytical Thinking</div>
+                <div class="skill-item">Team Collaboration</div>
+                <div class="skill-item">Communication</div>
+                <div class="skill-item">Problem-Solving</div>
             </div>
         </div>
-        <div class="skill">
-            <h3>SQL</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 85%;"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <h3>MySQL</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 85%;"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <h3>MongoDB</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 85%;"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <h3>Git/GitHub</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 90%;"></div>
-            </div>
-        </div>
+
     </div>
 </section>
 
 
-<!-- Services Section -->
-<section id="services">
-    <div class="services-wrapper">
-        <!-- Empty Div for Layout -->
-        <div></div>
-        
-        <!-- Service Heading in the Second Column -->
-        <div class="service-heading">
-            <h2>Services</h2>
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Designing User Interfaces</h3>
+                <p>Using tools like HTML, CSS, and JavaScript, I create visually appealing and user-friendly interfaces.</p>
+            </div>
+            <div class="service-card">
+                <h3>Developing Back-End Logic</h3>
+                <p>I use Java to create scalable and robust server-side logic for applications.</p>
+            </div>
+            <div class="service-card">
+                <h3>Managing Databases</h3>
+                <p>I ensure that data is stored, retrieved, and manipulated efficiently using technologies like MySQL.</p>
+            </div>
+            <div class="service-card">
+                <h3>Integrating Software</h3>
+                <p>I integrate various software components and third-party services to create seamless applications.</p>
+            </div>
+            <div class="service-card">
+                <h3>Testing and Debugging</h3>
+                <p>I ensure that applications run smoothly without glitches through thorough testing and debugging.</p>
+            </div>
+            <div class="service-card">
+                <h3>Deploying Applications</h3>
+                <p>I deploy applications for users to access, ensuring they are fully functional and secure.</p>
+            </div>
         </div>
+    </section>
 
-        <!-- Empty Div for Layout -->
-        <div></div>
-
-        <!-- Service Components -->
-        <div class="service">
-            <h3>Designing User Interfaces</h3>
-            <p>Using tools like HTML, CSS, and JavaScript, I create visually appealing and user-friendly interfaces.</p>
-        </div>
-        <div class="service">
-            <h3>Developing Back-End Logic</h3>
-            <p>I use Java to create scalable and robust server-side logic for applications.</p>
-        </div>
-        <div class="service">
-            <h3>Managing Databases</h3>
-            <p>I ensure that data is stored, retrieved, and manipulated efficiently using technologies like MySQL.</p>
-        </div>
-        <div class="service">
-            <h3>Integrating Software</h3>
-            <p>I integrate various software components and third-party services to create seamless applications.</p>
-        </div>
-        <div class="service">
-            <h3>Testing and Debugging</h3>
-            <p>I ensure that applications run smoothly without glitches through thorough testing and debugging.</p>
-        </div>
-        <div class="service">
-            <h3>Deploying Applications</h3>
-            <p>I deploy applications for users to access, ensuring they are fully functional and secure.</p>
-        </div>
-        <div class="service">
-            <h3>Creating APIs</h3>
-            <p>I create APIs for general and specific functions to enable seamless interaction between systems.</p>
-        </div>
-        <div class="service">
-            <h3>Maintaining Documentation</h3>
-            <p>I maintain detailed technical documentation to ensure that all aspects of the project are well-documented for future reference.</p>
-        </div>
-        <div class="service">
-            <h3>Optimizing Code</h3>
-            <p>I focus on code optimization and organization to ensure that applications are efficient and maintainable.</p>
-        </div>
-    </div>
-</section>
-
-
-
-
-  <!-- Contact Section -->
-<section id="contact">
-    <div class="contact-heading">
+    <!-- Contact Section -->
+    <section id="contact">
         <h2>Contact</h2>
-    </div>
-    <div class="contact-container">
-        <!-- Contact Information -->
-        <div class="contact-info">
-            <div class="contact-item">
-                <i class="fa fa-phone"></i>
-                <span>+919390726780</span>
+        <div class="contact-container">
+            <div class="contact-info">
+                <a href="tel:+919390726780"><i class="fas fa-phone"></i> +91 9390726780</a>
+                <a href="mailto:kedarianegondi15@gmail.com"><i class="fas fa-envelope"></i> kedarianegondi15@gmail.com</a>
+                <a href="https://www.linkedin.com/in/kedari-anegondi-ab250319b" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
-            <div class="contact-item">
-                <i class="fa fa-envelope"></i>
-                <span>kedarianegondi15@gmail.com</span>
-            </div>
-            <div class="contact-item">
-                <i class="fa fa-linkedin"></i>
-                <span><a href="https://www.linkedin.com/in/kedari-anegondi-ab250319b" target="_blank">LinkedIn</a></span>
+            <div class="contact-form">
+                <form action="your-form-endpoint" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
             </div>
         </div>
-        
-        <!-- Contact Form -->
-        <div class="contact-form">
-            <form action="your-form-endpoint" method="post">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </div>
-</section>
-
-
+    </section>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Kedari Anegondi. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
